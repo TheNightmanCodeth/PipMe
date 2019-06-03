@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": "PipMe",
+    "version": "0.1.0",
+    "description": "But a pip button on the Youtube player",
+
+    "content_scripts": [{
+        "js": ["PipMe.js"],
+
+        "matches": ["https://www.youtube.com/*"]
+    }]
+}
